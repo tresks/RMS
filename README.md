@@ -1,6 +1,6 @@
 # Rate My Shitter
 
-Welcome to the rate my shitter github page.
+Welcome to the Rate My Shitter github page.
 
 With this script you can do a number of things and in doing so piss many people off in the process, including the admins.
 
