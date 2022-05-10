@@ -7,12 +7,19 @@ With this script you can do a number of things and in doing so piss many people 
 Features:
 
 Anti Blacklist, 
+
 Unlimited Text Update Distance, 
+
 Unlimited Blacklist/Unblacklist Distance, 
+
 Gif images on booths, 
+
 Live text changer, 
+
 Custom Notification (Uses RMA's Notification System), 
+
 Auto Blacklist Furries
+
 (Much more coming soon!)
 
 I hope you enjoy using this script as I took many hours putting this all together.
