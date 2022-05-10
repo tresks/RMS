@@ -11,19 +11,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tresks/RAS/main/Rate%
 
 ## Features:
 
-Anti Blacklist,
-
-Unlimited Text Update Distance, 
-
-Unlimited Blacklist/Unblacklist Distance, 
-
-Gif images on booths, 
-
-Live text changer, 
-
-Custom Notification (Uses RMA's Notification System), 
-
-Auto Blacklist Furries
+- Anti Blacklist,
+- Unlimited Text Update Distance, 
+- Unlimited Blacklist/Unblacklist Distance, 
+- Gif images on booths, 
+- Live text changer, 
+- Custom Notification (Uses RMA's Notification System), 
+- Auto Blacklist Furries
 
 (Much more coming soon!)
 
