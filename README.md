@@ -4,6 +4,11 @@ Welcome to the rate my shitter github page.
 
 With this script you can do a number of things and in doing so piss many people off in the process, including the admins.
 
+## Script:
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tresks/RAS/main/Rate%20My%20Shitter.lua",true))()
+```
+
 ## Features:
 
 Anti Blacklist,
