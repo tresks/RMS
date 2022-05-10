@@ -7,6 +7,7 @@ With this script you can do a number of things and in doing so piss many people 
 Features:
 
 Anti Blacklist,
+
 Unlimited Text Update Distance, 
 
 Unlimited Blacklist/Unblacklist Distance, 
