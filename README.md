@@ -4,7 +4,7 @@ Welcome to the rate my shitter github page.
 
 With this script you can do a number of things and in doing so piss many people off in the process, including the admins.
 
-Features:
+Features:\n
 Anti Blacklist
 Unlimited Text Update Distance
 Unlimited Blacklist/Unblacklist Distance
