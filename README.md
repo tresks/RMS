@@ -22,4 +22,4 @@ Auto Blacklist Furries
 
 (Much more coming soon!)
 
-### I hope you enjoy using this script as I took many hours putting this all together.
+##### I hope you enjoy using this script as I took many hours putting this all together.
