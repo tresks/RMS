@@ -7,7 +7,7 @@ With this script you can do a number of things and in doing so piss many people 
 My discord if needed: tresk#2201
 ## Script:
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tresks/RAS/main/Rate%20My%20Shitter.lua",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tresks/RAS/main/Rate%20My%20Shitter.lua"))()
 ```
 
 ## Features:
