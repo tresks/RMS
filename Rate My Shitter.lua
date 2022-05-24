@@ -556,7 +556,7 @@ gifs:Toggle("Animated Booth",false, function(t)
         local args = {
             [1] = "Update",
             [2] = {
-                ["DescriptionText"] = ".gg/s3cGY9JY This",
+                ["DescriptionText"] = ".gg/ftjhEEeKzW This",
                 ["ImageId"] = 9531846926
             }
         }
@@ -566,7 +566,7 @@ gifs:Toggle("Animated Booth",false, function(t)
         local args = {
             [1] = "Update",
             [2] = {
-                ["DescriptionText"] = ".gg/s3cGY9JY This was ",
+                ["DescriptionText"] = ".gg/ftjhEEeKzW This was ",
                 ["ImageId"] = 9533802715
             }
         }
@@ -576,7 +576,7 @@ gifs:Toggle("Animated Booth",false, function(t)
         local args = {
             [1] = "Update",
             [2] = {
-                ["DescriptionText"] = ".gg/s3cGY9JY This was made ",
+                ["DescriptionText"] = ".gg/ftjhEEeKzW This was made ",
                 ["ImageId"] = 9533665614
             }
         }
@@ -586,7 +586,7 @@ gifs:Toggle("Animated Booth",false, function(t)
         local args = {
             [1] = "Update",
             [2] = {
-                ["DescriptionText"] = ".gg/s3cGY9JY This was made by",
+                ["DescriptionText"] = ".gg/ftjhEEeKzW This was made by",
                 ["ImageId"] = 9530961387
             }
         }
@@ -596,7 +596,7 @@ gifs:Toggle("Animated Booth",false, function(t)
         local args = {
             [1] = "Update",
             [2] = {
-                ["DescriptionText"] = ".gg/s3cGY9JY This was made by tresk",
+                ["DescriptionText"] = ".gg/ftjhEEeKzW This was made by tresk",
                 ["ImageId"] = 9498272437
             }
         }
@@ -606,7 +606,7 @@ gifs:Toggle("Animated Booth",false, function(t)
         local args = {
             [1] = "Update",
             [2] = {
-                ["DescriptionText"] = ".gg/s3cGY9JY This was made by tresk :)",
+                ["DescriptionText"] = ".gg/ftjhEEeKzW This was made by tresk :)",
                 ["ImageId"] = 9014648411
             }
         }
