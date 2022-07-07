@@ -703,8 +703,5 @@ end;
 spawnnotification("Thankyou for using Rate My Shitter.");
 wait(1)
 spawnnotification("If you have any Questions/Suggestions please contact me on discord.");
-
 wait(1)
-if game.Players.LocalPlayer.UserId == 218620308 then
-    spawnnotification("Muzan_Jackson add me on discord treskishot#1337 I need to talk to you.");
-end
+spawnnotification("Also, if you see me in game feel free to say hi it's always fun seeing people use the script still")
