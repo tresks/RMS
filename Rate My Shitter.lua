@@ -101,6 +101,95 @@ gifs:Toggle("Seizure Gif",false, function(t)
             [1] = "Update",
             [2] = {
                 ["DescriptionText"] = game:GetService("CoreGui").ui.Main.TabFolder.Tab.Textbox.TextboxTitle.TextboxFrame.TextBox.Text,
+                ["ImageId"] = 10149286702
+            }
+        }
+        
+        game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
+        wait(0.02)
+        local args = {
+            [1] = "Update",
+            [2] = {
+                ["DescriptionText"] = game:GetService("CoreGui").ui.Main.TabFolder.Tab.Textbox.TextboxTitle.TextboxFrame.TextBox.Text,
+                ["ImageId"] = 9578104322
+            }
+        }
+        
+        game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
+        wait(0.02)
+        local args = {
+            [1] = "Update",
+            [2] = {
+                ["DescriptionText"] = game:GetService("CoreGui").ui.Main.TabFolder.Tab.Textbox.TextboxTitle.TextboxFrame.TextBox.Text,
+                ["ImageId"] = 9578121327
+            }
+        }
+        
+        game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
+        wait(0.02)
+        local args = {
+            [1] = "Update",
+            [2] = {
+                ["DescriptionText"] = game:GetService("CoreGui").ui.Main.TabFolder.Tab.Textbox.TextboxTitle.TextboxFrame.TextBox.Text,
+                ["ImageId"] = 9578125662
+            }
+        }
+        
+        game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
+        wait(0.02)
+        local args = {
+            [1] = "Update",
+            [2] = {
+                ["DescriptionText"] = game:GetService("CoreGui").ui.Main.TabFolder.Tab.Textbox.TextboxTitle.TextboxFrame.TextBox.Text,
+                ["ImageId"] = 9578129678
+            }
+        }
+        
+        game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
+        wait(0.02)
+        local args = {
+            [1] = "Update",
+            [2] = {
+                ["DescriptionText"] = game:GetService("CoreGui").ui.Main.TabFolder.Tab.Textbox.TextboxTitle.TextboxFrame.TextBox.Text,
+                ["ImageId"] = 9579746054
+            }
+        }
+        
+        game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
+        wait(0.02)
+        local args = {
+            [1] = "Update",
+            [2] = {
+                ["DescriptionText"] = game:GetService("CoreGui").ui.Main.TabFolder.Tab.Textbox.TextboxTitle.TextboxFrame.TextBox.Text,
+                ["ImageId"] = 9579750300
+            }
+        }
+        
+        game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
+        wait(0.02)
+        local args = {
+            [1] = "Update",
+            [2] = {
+                ["DescriptionText"] = game:GetService("CoreGui").ui.Main.TabFolder.Tab.Textbox.TextboxTitle.TextboxFrame.TextBox.Text,
+                ["ImageId"] = 9579757463
+            }
+        }
+        
+        game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
+        local args = {
+            [1] = "Update",
+            [2] = {
+                ["DescriptionText"] = game:GetService("CoreGui").ui.Main.TabFolder.Tab.Textbox.TextboxTitle.TextboxFrame.TextBox.Text,
+                ["ImageId"] = 9578078324
+            }
+        }
+        
+        game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
+        wait(0.02)
+        local args = {
+            [1] = "Update",
+            [2] = {
+                ["DescriptionText"] = game:GetService("CoreGui").ui.Main.TabFolder.Tab.Textbox.TextboxTitle.TextboxFrame.TextBox.Text,
                 ["ImageId"] = 9578079727
             }
         }
@@ -141,7 +230,7 @@ gifs:Toggle("Seizure Gif",false, function(t)
             [1] = "Update",
             [2] = {
                 ["DescriptionText"] = game:GetService("CoreGui").ui.Main.TabFolder.Tab.Textbox.TextboxTitle.TextboxFrame.TextBox.Text,
-                ["ImageId"] = 9578125662
+                ["ImageId"] = 9578129678
             }
         }
         
@@ -176,6 +265,7 @@ gifs:Toggle("Seizure Gif",false, function(t)
         }
         
         game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
+        wait(0.02)
     end
 end)
 
