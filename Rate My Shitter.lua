@@ -4,6 +4,21 @@ local win = lib:Window("Rate My Shitter",Color3.fromRGB(44, 120, 224), Enum.KeyC
 
 local utility = win:Tab("Utility")
 
+utility:Textbox("Webhook",true, function(t)
+    getgenv().webhook = t
+end)
+
+utility:Textbox("Update Text (Any Distance)",true, function(t)
+    local args = {
+        [1] = "Update",
+        [2] = {
+            ["DescriptionText"] = t,
+        }
+    }
+        
+    game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
+end)
+
 utility:Textbox("Text",false, function(t)
 end)
 
@@ -532,6 +547,93 @@ end)
 gifs:Label("Gifs were uploaded and scripted by tresk")
 
 local booths = win:Tab("Booth Stuff")
+
+booths:Toggle("Rate Bot Booth",false, function(t)
+    getgenv().rating = t
+    getgenv().list = {}
+    getgenv().blacklist = {}
+    while getgenv().rating do
+        if getgenv().webhook == nil then
+            local LocalPlayer = game.Players.LocalPlayer;
+            local PlayerGui = LocalPlayer.PlayerGui or LocalPlayer:WaitForChild("PlayerGui");
+            local MainGui = PlayerGui:FindFirstChild("MainGui");
+            local notification = MainGui:WaitForChild("NotificationFrame");
+            local notificationSound = MainGui["Main Gui Core"].NotificationSound;
+            function spawnnotification(p1, p2)
+                local notification = notification:Clone();
+                notification.Parent = MainGui;
+                notification.NotificationText.Text = p1;
+                notification.Visible = true;
+                notificationSound:Play();
+                if p2 then
+                    wait(p2);
+                else
+                    wait(5);
+                end;
+                notification.Visible = false;
+                notification:Destroy();
+            end;
+            spawnnotification("Open utility and input a webhook to use this feature.")
+            getgenv().rating = false
+        else
+            local args = {
+                [1] = "Update",
+                [2] = {
+                    ["DescriptionText"] = 'A bot rates your avatar say "Bot Rate Me" to get rated',
+                    ["ImageId"] = 9014648411
+                }
+            }
+            
+            game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
+            game.ReplicatedStorage.DefaultChatSystemChatEvents.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageData)
+                if messageData.FromSpeaker ~= game.Players.LocalPlayer.Name then
+                    local message = string.lower(messageData.Message)
+
+                    if string.find(message, "bot rate me") and table.find(list, messageData.FromSpeaker) ~= nil and getgenv().rating == true and table.find(blacklist, messageData.FromSpeaker) == nil then
+                        return
+                    else
+                        if string.find(message, "bot rate me") and getgenv().rating == true and table.find(list, messageData.FromSpeaker) == nil and table.find(blacklist, messageData.FromSpeaker) == nil then
+                            table.insert(list, messageData.FromSpeaker)
+                            local number = math.random(1,10)
+                            local args = {
+                                [1] = "Welcome to Bot's rating service please wait while the bot checks your avatar.",
+                                [2] = "All"
+                            }
+                                
+                            game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+                            task.wait(1)
+                            local args = {
+                                [1] = "The bot has rated you "..number.."/10.",
+                                [2] = "All"
+                            }
+                                
+                            game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+                            local data = {
+                                ["embeds"] = {
+                                    {
+                                        ["title"] = "**Player has been rated!**",
+                                        ["description"] = "The bot has rated "..messageData.FromSpeaker.." "..number.."/10",
+                                        ["type"] = "rich",
+                                        ["color"] = tonumber(0x7269da),
+                                    }
+                                },
+                                ["avatar_url"] = "https://cdn.discordapp.com/attachments/984209136562602014/1012131586826846208/Rate_bot.png",
+                                ["username"] = "Rate Bot"
+                            }
+
+                            local headers = {
+                                ["content-type"] = "application/json" 
+                            }
+                            syn.request({Url = getgenv().webhook, Body = game:GetService("HttpService"):JSONEncode(data), Method = "POST", Headers = headers})
+                        end
+                    end
+                end
+            end)
+        end
+        task.wait()
+    end
+end)
 
 booths:Button("Troll Booth", function()
     local args = {
