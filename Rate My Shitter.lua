@@ -18,7 +18,7 @@ utility:Toggle("LiveText",false, function(t)
         }
         
         game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-        wait()
+        task.wait()
     end
 end)
 
@@ -32,7 +32,7 @@ utility:Toggle("Anti Blacklist",false, function(t)
                 end
             end
         end
-        wait()
+        task.wait()
     end
 end)
 
@@ -192,7 +192,7 @@ gifs:Toggle("Cat Kiss Gif",false, function(t)
         }
         
         game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-        wait(0.14)
+        task.wait(0.14)
         local args = {
             [1] = "Update",
             [2] = {
@@ -202,7 +202,7 @@ gifs:Toggle("Cat Kiss Gif",false, function(t)
         }
         
         game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-        wait(0.14)
+        task.wait(0.14)
         local args = {
             [1] = "Update",
             [2] = {
@@ -212,7 +212,7 @@ gifs:Toggle("Cat Kiss Gif",false, function(t)
         }
         
         game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-        wait(0.14)
+        task.wait(0.14)
         local args = {
             [1] = "Update",
             [2] = {
@@ -222,7 +222,7 @@ gifs:Toggle("Cat Kiss Gif",false, function(t)
         }
         
         game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-        wait(0.14)
+        task.wait(0.14)
         local args = {
             [1] = "Update",
             [2] = {
@@ -232,7 +232,7 @@ gifs:Toggle("Cat Kiss Gif",false, function(t)
         }
         
         game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-        wait(0.14)
+        task.wait(0.14)
         local args = {
             [1] = "Update",
             [2] = {
@@ -242,7 +242,7 @@ gifs:Toggle("Cat Kiss Gif",false, function(t)
         }
         
         game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-        wait(0.14)
+        task.wait(0.14)
         local args = {
             [1] = "Update",
             [2] = {
@@ -252,7 +252,7 @@ gifs:Toggle("Cat Kiss Gif",false, function(t)
         }
         
         game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-        wait(0.14)
+        task.wait(0.14)
         local args = {
             [1] = "Update",
             [2] = {
@@ -262,7 +262,7 @@ gifs:Toggle("Cat Kiss Gif",false, function(t)
         }
         
         game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-        wait(0.14)
+        task.wait(0.14)
         local args = {
             [1] = "Update",
             [2] = {
@@ -272,7 +272,7 @@ gifs:Toggle("Cat Kiss Gif",false, function(t)
         }
         
         game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-        wait(0.14)
+        task.wait(0.14)
         local args = {
             [1] = "Update",
             [2] = {
@@ -282,7 +282,7 @@ gifs:Toggle("Cat Kiss Gif",false, function(t)
         }
         
         game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-        wait(0.14)
+        task.wait(0.14)
         local args = {
             [1] = "Update",
             [2] = {
@@ -292,7 +292,7 @@ gifs:Toggle("Cat Kiss Gif",false, function(t)
         }
         
         game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-        wait(0.14)
+        task.wait(0.14)
         local args = {
             [1] = "Update",
             [2] = {
@@ -302,7 +302,7 @@ gifs:Toggle("Cat Kiss Gif",false, function(t)
         }
         
         game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-        wait(0.14)
+        task.wait(0.14)
         local args = {
             [1] = "Update",
             [2] = {
@@ -312,7 +312,7 @@ gifs:Toggle("Cat Kiss Gif",false, function(t)
         }
         
         game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-        wait(0.14)
+        task.wait(0.14)
         local args = {
             [1] = "Update",
             [2] = {
@@ -322,7 +322,7 @@ gifs:Toggle("Cat Kiss Gif",false, function(t)
         }
         
         game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-        wait(0.14)
+        task.wait(0.14)
         local args = {
             [1] = "Update",
             [2] = {
@@ -332,7 +332,7 @@ gifs:Toggle("Cat Kiss Gif",false, function(t)
         }
         
         game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-        wait(0.14)
+        task.wait(0.14)
     end
 end)    
 
@@ -348,7 +348,7 @@ gifs:Toggle("Sucky Gif",false, function(t)
     }
     
     game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-    wait(0.03)
+    task.wait(0.03)
     local args = {
         [1] = "Update",
         [2] = {
@@ -358,7 +358,7 @@ gifs:Toggle("Sucky Gif",false, function(t)
     }
     
     game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-    wait(0.03)
+    task.wait(0.03)
     local args = {
         [1] = "Update",
         [2] = {
@@ -368,7 +368,7 @@ gifs:Toggle("Sucky Gif",false, function(t)
     }
     
     game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-    wait(0.03)
+    task.wait(0.03)
     local args = {
         [1] = "Update",
         [2] = {
@@ -378,7 +378,7 @@ gifs:Toggle("Sucky Gif",false, function(t)
     }
     
     game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-    wait(0.03)
+    task.wait(0.03)
     local args = {
         [1] = "Update",
         [2] = {
@@ -388,7 +388,7 @@ gifs:Toggle("Sucky Gif",false, function(t)
     }
     
     game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-    wait(0.03)
+    task.wait(0.03)
     local args = {
         [1] = "Update",
         [2] = {
@@ -398,7 +398,7 @@ gifs:Toggle("Sucky Gif",false, function(t)
     }
     
     game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-    wait(0.03)
+    task.wait(0.03)
     local args = {
         [1] = "Update",
         [2] = {
@@ -408,7 +408,7 @@ gifs:Toggle("Sucky Gif",false, function(t)
     }
     
     game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-    wait(0.03)
+    task.wait(0.03)
     local args = {
         [1] = "Update",
         [2] = {
@@ -427,7 +427,7 @@ gifs:Toggle("Sucky Gif",false, function(t)
     }
     
     game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-    wait(0.03)
+    task.wait(0.03)
     local args = {
         [1] = "Update",
         [2] = {
@@ -437,7 +437,7 @@ gifs:Toggle("Sucky Gif",false, function(t)
     }
     
     game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-    wait(0.03)
+    task.wait(0.03)
     local args = {
         [1] = "Update",
         [2] = {
@@ -447,7 +447,7 @@ gifs:Toggle("Sucky Gif",false, function(t)
     }
     
     game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-    wait(0.03)
+    task.wait(0.03)
     local args = {
         [1] = "Update",
         [2] = {
@@ -457,7 +457,7 @@ gifs:Toggle("Sucky Gif",false, function(t)
     }
     
     game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-    wait(0.03)
+    task.wait(0.03)
     end
 end)
 
@@ -473,7 +473,7 @@ gifs:Toggle("Animated Booth",false, function(t)
         }
         
         game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-        wait(0.8)
+        task.wait(0.8)
         local args = {
             [1] = "Update",
             [2] = {
@@ -483,7 +483,7 @@ gifs:Toggle("Animated Booth",false, function(t)
         }
         
         game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-        wait(0.8)
+        task.wait(0.8)
         local args = {
             [1] = "Update",
             [2] = {
@@ -493,7 +493,7 @@ gifs:Toggle("Animated Booth",false, function(t)
         }
         
         game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-        wait(0.8)
+        task.wait(0.8)
         local args = {
             [1] = "Update",
             [2] = {
@@ -503,7 +503,7 @@ gifs:Toggle("Animated Booth",false, function(t)
         }
         
         game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-        wait(0.8)
+        task.wait(0.8)
         local args = {
             [1] = "Update",
             [2] = {
@@ -513,7 +513,7 @@ gifs:Toggle("Animated Booth",false, function(t)
         }
         
         game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-        wait(0.8)
+        task.wait(0.8)
         local args = {
             [1] = "Update",
             [2] = {
@@ -523,7 +523,7 @@ gifs:Toggle("Animated Booth",false, function(t)
         }
         
         game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(args))
-        wait(1)
+        task.wait(1)
     end
 end)
 
@@ -585,7 +585,7 @@ local PlayerGui = LocalPlayer.PlayerGui or LocalPlayer:WaitForChild("PlayerGui")
 local MainGui = PlayerGui:FindFirstChild("MainGui");
 if not MainGui then
 	while true do
-		wait();
+		task.wait();
 		MainGui = PlayerGui:FindFirstChild("MainGui");
 		if MainGui ~= nil then
 			break;
@@ -604,15 +604,15 @@ function spawnnotification(p1, p2)
     notification.Visible = true;
     notificationSound:Play();
     if p2 then
-        wait(p2);
+        task.wait(p2);
     else
-        wait(5);
+        task.wait(5);
     end;
     notification.Visible = false;
     notification:Destroy();
 end;
 spawnnotification("Thankyou for using Rate My Shitter.");
-wait(1)
+task.wait(1)
 spawnnotification("If you have any Questions/Suggestions please contact me on discord.");
-wait(1)
+task.wait(1)
 spawnnotification("Also, if you see me in game feel free to say hi it's always fun seeing people use the script still")
