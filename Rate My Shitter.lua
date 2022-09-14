@@ -576,10 +576,11 @@ booths:Toggle("Rate Bot Booth",false, function(t)
             spawnnotification("Open utility and input a webhook to use this feature.")
             getgenv().rating = false
         else
+            local name = string.lower(game.Players.LocalPlayer.Name)
             local args = {
                 [1] = "Update",
                 [2] = {
-                    ["DescriptionText"] = 'A bot rates your avatar say "Bot Rate Me" to get rated',
+                    ["DescriptionText"] = 'A bot rates your avatar say "'..name..' Rate Me" to get rated',
                     ["ImageId"] = 9014648411
                 }
             }
@@ -588,15 +589,16 @@ booths:Toggle("Rate Bot Booth",false, function(t)
             game.ReplicatedStorage.DefaultChatSystemChatEvents.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageData)
                 if messageData.FromSpeaker ~= game.Players.LocalPlayer.Name then
                     local message = string.lower(messageData.Message)
+                    local name = string.lower(game.Players.LocalPlayer.Name)
 
-                    if string.find(message, "bot rate me") and table.find(list, messageData.FromSpeaker) ~= nil and getgenv().rating == true and table.find(blacklist, messageData.FromSpeaker) == nil then
+                    if string.find(message, name.." rate me") and table.find(list, messageData.FromSpeaker) ~= nil and getgenv().rating == true and table.find(blacklist, messageData.FromSpeaker) == nil then
                         return
                     else
-                        if string.find(message, "bot rate me") and getgenv().rating == true and table.find(list, messageData.FromSpeaker) == nil and table.find(blacklist, messageData.FromSpeaker) == nil then
+                        if string.find(message, name.." rate me") and getgenv().rating == true and table.find(list, messageData.FromSpeaker) == nil and table.find(blacklist, messageData.FromSpeaker) == nil then
                             table.insert(list, messageData.FromSpeaker)
                             local number = math.random(1,10)
                             local args = {
-                                [1] = "Welcome to Bot's rating service please wait while the bot checks your avatar.",
+                                [1] = "Welcome to "..name.."'s rating service please wait while the bot checks your avatar.",
                                 [2] = "All"
                             }
                                 
